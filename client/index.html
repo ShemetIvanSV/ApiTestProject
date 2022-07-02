@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello React</title>
+    <style>
+        .user-info{
+            padding: 8px;
+            border: 1px #ccc solid;
+        }
+    </style>
+</head>
+<body>
+    <div id="app"> </div>
+    <div id="app2"> </div>
+    <div id="app1"> </div>
+    <div id="app4"> </div>
+       
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" src="index.jsx"></script>
+
+<!-- 
+   <script type="text/babel">
+    const user = {
+        id : 5,
+        age: 33,
+        firstName: 'Tom',
+        lastName: 'Smit',
+        getFullName: function(){ 
+            return `${this.firstName} ${this.lastName}`;
+        }
+    };
+    const userClassName = "user-info";
+    const styleObj = {
+        color:'red', 
+        fontFamily:'Verdana'
+    };
+    ReactDOM    
+        .createRoot(document.getElementById("app"))
+        .render(
+            <div className={userClassName}  style={styleObj}>
+                <p>Полное имя: {user.getFullName()}</p>
+                <p>Возраст: {user.age}</p>
+            </div>
+        );
+   </script>
+
+
+   <script type="text/babel">
+    const rootNode = document.getElementById("app1");    // элемент для рендеринга приложения React
+    // получаем корневой элемент 
+    const root = ReactDOM.createRoot(rootNode);
+    // рендеринг в корневой элемент
+    root.render(
+        <h1>Hello React</h1>  // элемент, который мы хотим создать
+     );
+   </script>
+
+    <script type="text/babel">
+    ReactDOM    
+        .createRoot(document.getElementById("app2"))
+        .render(
+            <h2>2 + 2 = {2 + 2}</h2>,
+        );
+   </script>
+
+<script type="text/babel">
+    const polzovatel = {
+        id : 5,
+        age: 33,
+        firstName: 'Tom',
+        lastName: 'Smit',
+        getFullName: function(){ 
+            return `${this.firstName} ${this.lastName}`;
+        }
+    };
+    ReactDOM    
+        .createRoot(document.getElementById("app4"))
+        .render(
+            <div id={user.id}>
+                <p>Полное имя: {user.getFullName()}</p>
+                <p>Возраст: {user.age}</p>
+                <p>Время генерации данных: {new Date().toLocaleTimeString()}</p>
+            </div>
+        );
+   </script>
+-->
+
+</body>
+</html>
