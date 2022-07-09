@@ -34,7 +34,7 @@ namespace ApiTestProject.Controllers
             }
             catch (ArgumentException)
             {
-                NotFound("Объект по данному Id не найден");
+                return NotFound("Объект по данному Id не найден");
             }
 
             _logger.LogInformation($"Get ----> {id}");
@@ -82,7 +82,7 @@ namespace ApiTestProject.Controllers
         [HttpPost()]
         [Route("{id}")]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult UpdateUser(int id, [FromBody] UserDto user)
         {
