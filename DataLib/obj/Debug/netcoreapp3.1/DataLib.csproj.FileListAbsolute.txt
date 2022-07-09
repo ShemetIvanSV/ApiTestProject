@@ -1,0 +1,15 @@
+C:\Users\Иван\source\repos\ApiTestProject\DataLib\bin\Debug\netcoreapp3.1\DataLib.deps.json
+C:\Users\Иван\source\repos\ApiTestProject\DataLib\bin\Debug\netcoreapp3.1\DataLib.runtimeconfig.json
+C:\Users\Иван\source\repos\ApiTestProject\DataLib\bin\Debug\netcoreapp3.1\DataLib.runtimeconfig.dev.json
+C:\Users\Иван\source\repos\ApiTestProject\DataLib\bin\Debug\netcoreapp3.1\DataLib.dll
+C:\Users\Иван\source\repos\ApiTestProject\DataLib\bin\Debug\netcoreapp3.1\DataLib.pdb
+C:\Users\Иван\source\repos\ApiTestProject\DataLib\obj\Debug\netcoreapp3.1\DataLib.csproj.AssemblyReference.cache
+C:\Users\Иван\source\repos\ApiTestProject\DataLib\obj\Debug\netcoreapp3.1\DataLib.Migrations.CreateUserTable.resources
+C:\Users\Иван\source\repos\ApiTestProject\DataLib\obj\Debug\netcoreapp3.1\DataLib.csproj.GenerateResource.cache
+C:\Users\Иван\source\repos\ApiTestProject\DataLib\obj\Debug\netcoreapp3.1\DataLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Иван\source\repos\ApiTestProject\DataLib\obj\Debug\netcoreapp3.1\DataLib.AssemblyInfoInputs.cache
+C:\Users\Иван\source\repos\ApiTestProject\DataLib\obj\Debug\netcoreapp3.1\DataLib.AssemblyInfo.cs
+C:\Users\Иван\source\repos\ApiTestProject\DataLib\obj\Debug\netcoreapp3.1\DataLib.csproj.CoreCompileInputs.cache
+C:\Users\Иван\source\repos\ApiTestProject\DataLib\obj\Debug\netcoreapp3.1\DataLib.dll
+C:\Users\Иван\source\repos\ApiTestProject\DataLib\obj\Debug\netcoreapp3.1\DataLib.pdb
+C:\Users\Иван\source\repos\ApiTestProject\DataLib\obj\Debug\netcoreapp3.1\DataLib.genruntimeconfig.cache
